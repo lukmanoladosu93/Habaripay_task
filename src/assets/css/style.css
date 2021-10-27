@@ -161,10 +161,16 @@
       height:48px;
       width:48px;
   }
-  @media(max-height:991px){
+  @media (max-width:991px){
       .link-div{
           position: relative!important;
           left:unset;
           top:15px;
+      }
+      .navbar-nav{
+          background-color:aliceblue;
+          border-radius: 0px 0px 5px 5px;
+          margin-top:10px;
+          padding:10px!important;
       }
   }
